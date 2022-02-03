@@ -1,0 +1,45 @@
+{% extends 'ui/base.html' %}
+{% block scripts %}
+<script>
+	(function() {
+		window.addEventListener('load', (event) => {
+			const editor = document.getElementById('hex-editor');
+			fetch('/api/editor')
+				.then(response => response.json())
+				.then(data => {
+					console.log(data);
+					editor.value = data.contents;
+				})
+		});
+	})();
+</script>
+{% endblock %}
+{% block content %}
+<div class="row p-0 m-0">
+    <div class="col-3 d-none h-100 bg-primary d-sm-flex align-items-center justify-content-center p-0 m-0">
+    </div>
+    <div class="col-9 row h-100 p-0 m-0">
+    	<div class="h-75 table-responsive">
+    		<table class="table">
+    			<thead>
+    				<tr>
+    					<th scope="col">Name</th>
+    					<th scope="col">Size</th>
+    				</tr>
+    			</thead>
+    			<tbody>
+    				{% for file in files %}
+    				<tr>
+    					<td>{{ file.0 }}</td>
+    					<td>{{ file.1 }}</td>
+    				</tr>
+    				{% endfor %}
+    			</tbody>
+    		</table>
+    	</div>
+    	<div class="h-25 d-flex flex-column p-0 m-0">
+			<textarea id="hex-editor" class="form-control form-control-lg flex-grow-1" readonly></textarea>
+    	</div>
+    </div>
+</div>
+{% endblock %}
