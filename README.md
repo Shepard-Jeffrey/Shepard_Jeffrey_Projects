@@ -1,4 +1,4 @@
-# Shepard_Jeffrey_Projects
+# Jeffrey Shepard's Projects
 My demo work in Computer Science
 
 The "Unity Demo" folder has the code of a simple game I made in unity, the music is not mine. 
