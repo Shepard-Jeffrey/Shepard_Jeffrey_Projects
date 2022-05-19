@@ -23,7 +23,7 @@ keyring==23.0.1
 lockfile==0.12.2
 lxml==4.6.5
 machine==0.0.1
-numpy==1.20.3
+numpy==1.21.0
 ordereddict==1.1
 PasteScript==3.2.1
 protobuf==3.20.1
