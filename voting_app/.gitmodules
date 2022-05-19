@@ -1,0 +1,6 @@
+[submodule "lib/lib/Adafruit_CircuitPython_Fingerprint"]
+	path = lib/lib/Adafruit_CircuitPython_Fingerprint
+	url = https://github.com/adafruit/Adafruit_CircuitPython_Fingerprint.git
+[submodule "lib/Adafruit_CircuitPython_Fingerprint"]
+	path = lib/Adafruit_CircuitPython_Fingerprint
+	url = https://github.com/adafruit/Adafruit_CircuitPython_Fingerprint.git
