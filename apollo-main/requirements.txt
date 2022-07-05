@@ -1,5 +1,5 @@
 asgiref==3.4.1
-Django==3.2.13
+Django==3.2.14
 flake8==4.0.1
 mccabe==0.6.1
 psycopg2==2.9.2
