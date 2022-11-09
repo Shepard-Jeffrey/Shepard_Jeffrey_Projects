@@ -1,0 +1,229 @@
+body {
+   margin: 0;
+   padding: 0;
+}
+
+/* -----------------------------
+   Styles for footer
+   ----------------------------- */
+
+/* ----------------------------- */
+
+footer {
+   font-family: sans-serif;
+   background-color: #000000;
+   color: white;
+   margin: 0;
+   padding-bottom: 0.01em;
+   padding-top: 0;
+}
+
+footer p {
+   padding-left: 1em;
+   padding-top: 0.5em;
+   margin-top: 0;
+}
+
+
+/* -----------------------------
+   Styles for header
+   ----------------------------- */
+
+/* ----------------------------- */
+
+header {
+   align-items: center;
+}
+/* :first-child */
+header h2 {
+   background-color: black;
+   color: white;
+   font-variant: small-caps;
+   text-align: center;
+   padding: 0.3em;
+   margin: 0em;
+   font-size: 3.5em;
+}
+
+header nav ul li {
+   padding: 0;
+   margin: 0em;
+   display: inline;
+   padding-bottom: 0;
+}
+
+header nav .primary a:link, header nav .primary a:visited {
+   color: red;
+   margin: 0em;
+}
+
+/* nav ul{padding: 0; margin: 0} */
+
+/* header .primary {
+   padding: 0;
+   margin: 0%;
+   display: inline;
+   padding-bottom: 0;
+} */
+
+/* header .primary {
+   margin: 0em;
+} */
+
+/* -----------------------------
+   Styles for header nav
+   ----------------------------- */
+
+/* ----------------------------- */
+
+.primary a:link, .primary a:visited {
+   color: black;
+   text-decoration: none;
+   margin: 0;
+   padding: 0;
+}
+
+.primary ul li :before {
+   content: '| ';
+   padding: 1em;
+}
+
+.primary ul li:first-child :before {
+   content: none;
+}
+
+.primary ul li:last-child > a:visited,
+.primary ul li:last-child > a:hover,
+.primary ul li:last-child > a:link,
+.primary ul li:last-child > a:active
+{
+   color: black;
+   padding: 0.5em;
+}
+
+header nav.primary {
+   grid-area: nav1;
+   text-align: right;
+   padding-right: 2em;
+}
+
+/* section li, section li a:link :after {
+content: url(../images/arrow-right.svg); */
+/* width: 1em;
+height: 1em; */
+/* } */
+
+/* section li, section li a:link img {
+   border-radius: 8px;
+   
+} */
+
+
+
+/* -----------------------------
+   Styles for "About Me"
+   ----------------------------- */
+
+/* ----------------------------- */
+
+.about {
+   background-image: url(https://ak.picdn.net/shutterstock/videos/1019897650/thumb/1.jpg?ip=x480);
+   background-size: cover;
+   background-repeat: no-repeat;
+   color: white;
+   padding-bottom: 2em;
+}
+
+div.about {
+   background-color: #ebebeb;
+   padding-top: 0.1em;
+}
+
+div.about h2 {
+   text-align: center;
+   font-size: 3em;
+   padding-top: 0.5em;
+}
+
+div.about p {
+   width: 50%;
+   margin: auto;
+   line-height: 40pt;
+}
+
+/* -----------------------------
+   Styles for "Previous Work"
+   ----------------------------- */
+
+/* ----------------------------- */
+
+.work {
+   color: white;
+}
+
+div.work {
+   background-color: black;
+   padding-top: 0.1em;
+}
+
+div.work h2 {
+   text-align: center;
+   font-size: 3em;
+}
+
+div.work p {
+   width: 50%;
+   margin: auto;
+   margin-top: -1em;
+}
+
+.work a:link, .work a:visited {
+   color:yellow;
+   text-align: center;
+   font-size: 1em;
+}
+
+.work div {
+   text-align: center;
+   margin-top: -2em;
+}
+
+.work div.test {
+   text-align: center;
+   padding-bottom: 3em;
+}
+
+.work p.slideshow {
+   padding-bottom: 2em;
+}
+
+/* -----------------------------
+   Styles for "Resume"
+   ----------------------------- */
+
+/* ----------------------------- */
+
+.resume {
+   color: white;
+   padding-bottom: 2em;
+}
+
+div.resume {
+   background-color: black;
+   padding-top: 0.1em;
+}
+
+/* Questions:
+
+I'm thinking I may end up redoing the resume page, actually doing it out in CSS rather than using the image,
+so I can make the github link work, and maybe make different parts of it a button/link that you click
+to "see more" for the Javascript component.
+Do you agree that that's what I should do? If not, where might I practically use Javascript?
+
+Json dynamically update stuff - for javascript component
+Javascript lists that dynamically build. 
+
+From here, I'm planning to add the javascript component, and possibly SEO meta tags for my "extraordinary distinction"
+area. Does my site look good aside from that? Is there anything else I'm missing?
+
+*/
