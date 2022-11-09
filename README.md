@@ -7,3 +7,5 @@ Alternatively, you can view/play the game by going to https://shepard-jeffrey.gi
 Apollo is a web based forensics tool used to recover information from solid state drives, this was completed in a group for a Capstone Project course. 
 
 Voting app is a web application made with flask and react that connects to a database of users and votes and outputs to the application accordingly. It was originally hosted via heroku but was taken down, code still available here. It can be run by installing requirements and running wsgi.py.
+
+I also have a website hosted via Amazon Web Services available at JeffreyShepard.net
