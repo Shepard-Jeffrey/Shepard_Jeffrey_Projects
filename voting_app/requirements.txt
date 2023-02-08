@@ -5,7 +5,7 @@ blinker==1.4
 brotli==1.0.9
 brotlipy==0.7.0
 ConfigParser==5.2.0
-cryptography==3.4.7
+cryptography==39.0.1
 Cython==0.29.24
 dl==0.1.0
 docutils==0.17.1
